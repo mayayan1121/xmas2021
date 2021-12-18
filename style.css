@@ -117,16 +117,18 @@ input#open {
 .text {
   position: absolute;
   color: white;
-  font-family: cursive;
+  font-family: monospace;
   top:260px;
   width:260px;
   text-align: center;
-  font-size:15px;
+  font-size:10px;
 }
 
 .text:before {
   content:"Merry Christmas!";
+  font-family: cursive;
   position: absolute;
+  font-size:15px;
   width:80px;
   color: #333;
   text-align: center;
@@ -245,19 +247,42 @@ input#open {
   width:250px;
 }
 
+.ppl {
+
+  position: absolute;
+  color: white;
+  font-size:15px;
+  font-family: 'Licorice', cursive;
+  line-height: 25px;
+  left: 30px;
+  top:50px;
+  width:250px;
+}
+
 .wishes {
   position: absolute;
   width: 150px;
   text-align: center;
   font-family: 'Licorice', cursive;
   line-height:20px;
-  font-size: 18px;
+  font-size: 15px;
   color: white;
   height: 300px;
-  top: 40%;
+  top: 30%;
   left:50px;
 }
 
+.maya {
+
+  position: absolute;
+  color: white;
+  font-size:15px;
+  font-family: 'Licorice', cursive;
+  line-height: 25px;
+  left: 30px;
+  bottom: 40px;
+  width:250px;
+}
 
 
 
